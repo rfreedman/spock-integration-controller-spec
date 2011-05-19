@@ -1,0 +1,3 @@
+A Spock ControllerSpec that wraps each test method in a transaction, and rolls the transaction back at the end of the test method.
+
+IntegrationControllerSpec merges the code for IntegrationSpec and ControllerSpec, yielding a ControllerSpec that executes test methods in transactions, and rolls them back.
